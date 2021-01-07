@@ -84,7 +84,40 @@ function App() {
 function Home() {
   return (
     <>
-      <h2>Stripe React + Node.js</h2>
+      <div class='well'>
+        <h2>Stripe React + Node.js Live Demo</h2>
+      </div>
+
+      <div class='embed-responsive embed-responsive-16by9 vid'>
+        <iframe
+          src='https://player.vimeo.com/video/416381401'
+          // width="640"
+          // height="360"
+          frameborder='0'
+          allow='autoplay; fullscreen'
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class='well'>
+        <h2>Running in Test Mode</h2>
+        <p>
+          This demo is running in Stripe test mode, so feel free to submit
+          payments with testing cards.
+        </p>
+        <a
+          class='btn btn-outline-success'
+          href='https://fireship.io/courses/stripe-js'
+        >
+          Full Stripe JS Course
+        </a>
+        <a
+          class='btn btn-secondary'
+          href='https://github.com/fireship-io/stripe-payments-js-course'
+        >
+          source code
+        </a>
+      </div>
     </>
   );
 }
